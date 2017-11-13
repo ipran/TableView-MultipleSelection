@@ -14,6 +14,7 @@
 		3D64D0A61FB96CF60076504E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D64D0A41FB96CF60076504E /* LaunchScreen.storyboard */; };
 		3D64D0B11FB96CF60076504E /* TableView_MultipleSelectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64D0B01FB96CF60076504E /* TableView_MultipleSelectionTests.swift */; };
 		3D64D0BC1FB96CF60076504E /* TableView_MultipleSelectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64D0BB1FB96CF60076504E /* TableView_MultipleSelectionUITests.swift */; };
+		3D64D0CA1FB9A4690076504E /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64D0C91FB9A4690076504E /* TableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3D64D0B71FB96CF60076504E /* TableView-MultipleSelectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView-MultipleSelectionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D64D0BB1FB96CF60076504E /* TableView_MultipleSelectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView_MultipleSelectionUITests.swift; sourceTree = "<group>"; };
 		3D64D0BD1FB96CF60076504E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D64D0C91FB9A4690076504E /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3D64D0A21FB96CF60076504E /* Assets.xcassets */,
 				3D64D0A41FB96CF60076504E /* LaunchScreen.storyboard */,
 				3D64D0A71FB96CF60076504E /* Info.plist */,
+				3D64D0C91FB9A4690076504E /* TableCell.swift */,
 			);
 			path = "TableView-MultipleSelection";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D64D0CA1FB9A4690076504E /* TableCell.swift in Sources */,
 				3D64D09E1FB96CF60076504E /* ViewController.swift in Sources */,
 				3D64D09C1FB96CF60076504E /* AppDelegate.swift in Sources */,
 			);
