@@ -15,6 +15,7 @@
 		3D64D0B11FB96CF60076504E /* TableView_MultipleSelectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64D0B01FB96CF60076504E /* TableView_MultipleSelectionTests.swift */; };
 		3D64D0BC1FB96CF60076504E /* TableView_MultipleSelectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64D0BB1FB96CF60076504E /* TableView_MultipleSelectionUITests.swift */; };
 		3D64D0CA1FB9A4690076504E /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64D0C91FB9A4690076504E /* TableCell.swift */; };
+		8A7D4EB1F8D77F91C951AAF1 /* Pods_TableView_MultipleSelection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E84B9CAA09957B76D8C8C15 /* Pods_TableView_MultipleSelection.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D4D93B60B81C3BB83A304EA /* Pods-TableView-MultipleSelection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView-MultipleSelection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableView-MultipleSelection/Pods-TableView-MultipleSelection.debug.xcconfig"; sourceTree = "<group>"; };
 		3D64D0981FB96CF60076504E /* TableView-MultipleSelection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableView-MultipleSelection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D64D09B1FB96CF60076504E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D64D09D1FB96CF60076504E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		3D64D0BB1FB96CF60076504E /* TableView_MultipleSelectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView_MultipleSelectionUITests.swift; sourceTree = "<group>"; };
 		3D64D0BD1FB96CF60076504E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D64D0C91FB9A4690076504E /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		5E84B9CAA09957B76D8C8C15 /* Pods_TableView_MultipleSelection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableView_MultipleSelection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3CA9D8FAC67803122AED79 /* Pods-TableView-MultipleSelection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView-MultipleSelection.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableView-MultipleSelection/Pods-TableView-MultipleSelection.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7D4EB1F8D77F91C951AAF1 /* Pods_TableView_MultipleSelection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21B6598C4A9AD534539FB48A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D4D93B60B81C3BB83A304EA /* Pods-TableView-MultipleSelection.debug.xcconfig */,
+				9C3CA9D8FAC67803122AED79 /* Pods-TableView-MultipleSelection.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3D64D08F1FB96CF60076504E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +97,8 @@
 				3D64D0AF1FB96CF60076504E /* TableView-MultipleSelectionTests */,
 				3D64D0BA1FB96CF60076504E /* TableView-MultipleSelectionUITests */,
 				3D64D0991FB96CF60076504E /* Products */,
+				21B6598C4A9AD534539FB48A /* Pods */,
+				A36EC53885082121FA39CB76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +144,14 @@
 			path = "TableView-MultipleSelectionUITests";
 			sourceTree = "<group>";
 		};
+		A36EC53885082121FA39CB76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E84B9CAA09957B76D8C8C15 /* Pods_TableView_MultipleSelection.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D64D0C01FB96CF60076504E /* Build configuration list for PBXNativeTarget "TableView-MultipleSelection" */;
 			buildPhases = (
+				33D00EC79D3EA37529BD1F2A /* [CP] Check Pods Manifest.lock */,
 				3D64D0941FB96CF60076504E /* Sources */,
 				3D64D0951FB96CF60076504E /* Frameworks */,
 				3D64D0961FB96CF60076504E /* Resources */,
+				3B1484F8168BE5799C320E30 /* [CP] Embed Pods Frameworks */,
+				1B9A39C7A7E9D6A01D472635 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +283,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B9A39C7A7E9D6A01D472635 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableView-MultipleSelection/Pods-TableView-MultipleSelection-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33D00EC79D3EA37529BD1F2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TableView-MultipleSelection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B1484F8168BE5799C320E30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TableView-MultipleSelection/Pods-TableView-MultipleSelection-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableView-MultipleSelection/Pods-TableView-MultipleSelection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D64D0941FB96CF60076504E /* Sources */ = {
@@ -428,6 +511,7 @@
 		};
 		3D64D0C11FB96CF60076504E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D4D93B60B81C3BB83A304EA /* Pods-TableView-MultipleSelection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +527,7 @@
 		};
 		3D64D0C21FB96CF60076504E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C3CA9D8FAC67803122AED79 /* Pods-TableView-MultipleSelection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
